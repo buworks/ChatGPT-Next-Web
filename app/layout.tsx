@@ -54,11 +54,6 @@ export default function RootLayout({
             <SpeedInsights />
           </>
         )}
-        {serverConfig?.gaId && (
-          <>
-            <GoogleAnalytics gaId={serverConfig.gaId} />
-          </>
-        )}
       </body>
     </html>
   );
